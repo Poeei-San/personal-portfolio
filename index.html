@@ -8,231 +8,477 @@
         <link rel="icon" href="image/title-icon.png" type="iamge/png">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <script src="./javascript/index.js" type="text/javascript"></script>
     </head>
     <body>
-        <section class="intro-section">
-            <div class="biography-container">
-                <div class="profile">
-                    <img class="profile-image" src="./image/person-image.png" alt="Profile Picture Image">
-                    <h2>Ms. Poe Ei San</h2>
-                    <h3>Experienced in Web Development and Project Management</h3>
-                    <h3>1996-06-09 (Date of birth)</h3> 
-                </div>
+        <!-- Language Switch Buttons -->
+        <div class="language-switch">
+            <button onclick="switchLanguage('eng')">
+                <img src="image/english-flag.png" alt="English Flag" class="flag bounce">English
+            </button>
+            <button onclick="switchLanguage('jap')">
+                <img src="image/japan-flag.png" alt="Japanese Flag" class="flag bounce">日本語
+            </button>
+        </div>
 
-                <div class="about-me">
-                    <div class="about-me-list">
-                        <p class="about-me-item"><i class="fas fa-globe-americas"></i>Mingalardon Township, Yangon, Myanmar.</p>
-                        <p class="about-me-item"><i class="fas fa-phone"></i>(+95) XXXXXXXXXX</p>
-                        <p class="about-me-item"><i class="fas fa-envelope"></i>poeeisan.techmm@gmail.com</p>
-                        <p class="about-me-item">
-                            <a href="https://www.linkedin.com/in/poeei-san-san-115002252" target="_blank">
-                                <i class="fab fa-linkedin"></i> linkedin.com/poeei-san-san
-                            </a>
-                        </p>
-                        <p class="about-me-item">
-                            <a href="https://github.com/Poeei-San" target="_blank">
-                                <i class="fab fa-github"></i>github.com/Poeei-San
-                            </a>
-                        </p>
-                        <p class="about-me-objective">Developer specializing in Java with extensive experience in managing the full project lifecycle, from system design and prototyping to implementation, development, testing, and maintenance.</p>
+        <div id="eng-container">
+            <section class="intro-section">
+                <div class="biography-container">
+                    <div class="profile">
+                        <img class="profile-image" src="./image/profile-image.jpeg" alt="Profile Picture Image">
+                        <h2>Ms. Poe Ei San</h2>
+                        <h3>Experienced in Web Development and Project Management</h3>
+                        <h3>1996-06-09 (Date of birth)</h3> 
+                    </div>
+    
+                    <div class="about-me">
+                        <div class="about-me-list">
+                            <p class="about-me-item"><i class="fas fa-globe-americas"></i>Mingalardon Township, Yangon, Myanmar.</p>
+                            <p class="about-me-item"><i class="fas fa-phone"></i>(+95) XXXX-XXXX-XX</p>
+                            <p class="about-me-item">
+                                <a href="mailto: poeeisan.techmm@gmail.com" target="_blank">
+                                    <i class="fas fa-envelope"></i>poeeisan.techmm@gmail.com
+                                </a>
+                            </p>
+                            <p class="about-me-item">
+                                <a href="https://www.linkedin.com/in/poeei-san-san-115002252" target="_blank">
+                                    <i class="fab fa-linkedin"></i>linkedin.com/poeei-san-san
+                                </a>
+                            </p>
+                            <p class="about-me-item">
+                                <a href="https://github.com/Poeei-San" target="_blank">
+                                    <i class="fab fa-github"></i>github.com/Poeei-San
+                                </a>
+                            </p>
+                            <p class="about-me-objective">Developer specializing in Java with extensive experience in managing the full project lifecycle, from system design and prototyping to implementation, development, testing, and maintenance.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <section class="education-section">
-            <div class="headline-title">
-                <div class="headline-title-wavy">
-                    <span style="--i:1">E</span>
-                    <span style="--i:2">D</span>
-                    <span style="--i:3">U</span>
-                    <span style="--i:4">C</span>
-                    <span style="--i:5">A</span>
-                    <span style="--i:6">T</span>
-                    <span style="--i:7">I</span>
-                    <span style="--i:8">O</span>
-                    <span style="--i:9">N</span>
-                </div>
-            </div>
-
-            <div class="education-container">
-                <div class="academic-info-container">
-                    <div class="academic-title"><i class="fas fa-graduation-cap"></i>Yangon University of Foreign Languages</div>
-                    <p> BA(Japanese)</p>
-                    <p>Graduated in the 2012-2016 academic year, Japanese Major </p>
-                </div>
-                
-                <div class="academic-info-container">
-                    <div class="academic-title"><i class="fa-solid fa-award"></i>Japanese-Language Proficiency Test (JLPT)</div>
-                    <p>N1 Passed </p>
-                    <p>Achieved JLPT-N1 certification in 2018</p>
-                </div>
-            </div>
-
-            <div class="education-container">
-                <div class="academic-info-container">
-                    <div class="academic-title"><i class="fa-solid fa-award"></i>Information Technology Professional Examination Council</div>
-                    <p>Information Technology Passport Examination(IP) Passed</p>
-                    <p>Achieved IP certification in 2022 , April</p>
-                </div>
-                <div class="academic-info-container">
-                    <div class="academic-title"><i class="fa-solid fa-award"></i>Information Technology Professional Examination Council</div>
-                    <p>Fundamental Information Technology Engineers Examination(FE) Passed</p>
-                    <p>Achieved FE certification in 2022 , October</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="skills-section">
-            <div class="headline-title">
-                <div class="headline-title-wavy">
-                    <span style="--i:1">S</span>
-                    <span style="--i:2">K</span>
-                    <span style="--i:3">I</span>
-                    <span style="--i:4">L</span>
-                    <span style="--i:5">L</span>
-                    <span style="--i:6">S</span>
-                </div>
-            </div>
-
-            <div class="skills-container">
-                <div class="skills-card tech-skills">
-                    <h2>Technical Skills</h2>
-                    <div class="skills-list">
-                        <p>Java</p>
-                        <p>Spring Framework (Spring Boot, Spring MVC, Spring Security)</p>
-                        <p>Frontend Development (HTML, CSS, bootstrap, JavaScript, JQuery, Ajax)</p>
-                        <p>Databases Management (MySQL, Microsoft SQL Server)</p>
-                        <p>Design and Prototyping (Figma)</p>
-                        <p>API Development</p>
-                        <p>Git, GitHub</p>
-                        <p>Testing and Quality Assurance</p>
-                        <p>Software Project Management(SPLC)</p>
+            </section>
+    
+            <section class="education-section">
+                <div class="headline-title">
+                    <div class="headline-title-wavy">
+                        <span style="--i:1">E</span>
+                        <span style="--i:2">D</span>
+                        <span style="--i:3">U</span>
+                        <span style="--i:4">C</span>
+                        <span style="--i:5">A</span>
+                        <span style="--i:6">T</span>
+                        <span style="--i:7">I</span>
+                        <span style="--i:8">O</span>
+                        <span style="--i:9">N</span>
                     </div>
                 </div>
-                <div class="skills-card language-skills">
-                    <h2>Language Skills</h2>
-                    <div class="skills-list">  
-                        <p><img src="/image/mm-flag.png"  alt="Burmese Flag" class="flag"> Burmese (Native)</p>
-                        <p><img src="/image/japan-flag.png" alt="Japanese Flag" class="flag"> Japanese (Fluent)</p>
-                        <p><img src="/image/english-flag.png" alt="English Flag" class="flag"> English (Intermediate)</p>
+    
+                <div class="education-container">
+                    <div class="academic-info-container">
+                        <div class="academic-title"><i class="fas fa-graduation-cap"></i>Yangon University of Foreign Languages</div>
+                        <p> BA(Japanese)</p>
+                        <p>Graduated in the 2012-2016 academic year, Japanese Major </p>
+                    </div>
+                    
+                    <div class="academic-info-container">
+                        <div class="academic-title"><i class="fa-solid fa-award"></i>Japanese-Language Proficiency Test (JLPT)</div>
+                        <p>N1 Passed </p>
+                        <p>Achieved JLPT-N1 certification in 2018</p>
                     </div>
                 </div>
-                <div class="skills-card personal-skills">
-                    <h2>Personal Skills</h2>
-                    <div class="skills-list">
-                        <p>Problem-Solving</p>
-                        <p>Communication</p>
-                        <p>Teamwork</p>
-                        <p>Time & Task Management</p>
-                        <p>Attention to Details</p>
-                        <p>Leadership & Management</p>
-                        <p>Adaptability</p>
+    
+                <div class="education-container">
+                    <div class="academic-info-container">
+                        <div class="academic-title"><i class="fa-solid fa-award"></i>Information Technology Professional Examination Council</div>
+                        <p>Information Technology Passport Examination(IP) Passed</p>
+                        <p>Achieved IP certification in 2022 , April</p>
+                    </div>
+                    <div class="academic-info-container">
+                        <div class="academic-title"><i class="fa-solid fa-award"></i>Information Technology Professional Examination Council</div>
+                        <p>Fundamental Information Technology Engineers Examination(FE) Passed</p>
+                        <p>Achieved FE certification in 2022 , October</p>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <section class="work-experience-section">
-            <div class="title">WORK EXPERIENCE...</div>
-            <div class="work-experience-container">
-                <div class="experience">
-                    <div class="company-info">
-                        <h3>Waiyan Myanmar Company Limited (Agency & Education Services)</h3>
-                        <span class="position">Project Coordinator</span>
-                        <span class="duration">Nov 2016 - Apr 2019 (2 years and 5 months)</span>
+            </section>
+    
+            <section class="skills-section">
+                <div class="headline-title">
+                    <div class="headline-title-wavy">
+                        <span style="--i:1">S</span>
+                        <span style="--i:2">K</span>
+                        <span style="--i:3">I</span>
+                        <span style="--i:4">L</span>
+                        <span style="--i:5">L</span>
+                        <span style="--i:6">S</span>
                     </div>
-                    <ul class="tasks">
-                        <li>Translated and interpreted between the company and Japanese clients, ensuring seamless communication and collaboration.</li>
-                        <li>Developed project plans, timelines, and reports, ensuring all team members were informed and aligned with project objectives.</li>
-                        <li>Prepared and maintained project-related documents, ensuring accuracy and accessibility.</li>
-                        <li>Managed education service operations, coordinating between service providers and clients to meet educational goals.</li>
-                    </ul>
                 </div>
-        
-                <div class="experience">
-                    <div class="company-info">
-                        <h3> Capital Taiyo Life Insurance Limited (Japan-Myanmar Joint Venture)</h3>
-                        <span class="position">Senior Web Developer, Assistant Manager</span>
-                        <span class="duration">May 2019 - Current</span>
+    
+                <div class="skills-container">
+                    <div class="skills-card tech-skills">
+                        <h2>Technical Skills</h2>
+                        <div class="skills-list">
+                            <p>Java</p>
+                            <p>Spring Framework (Spring Boot, Spring MVC, Spring Security)</p>
+                            <p>Frontend Development (HTML, CSS, bootstrap, JavaScript, JQuery, Ajax)</p>
+                            <p>Databases Management (MySQL, Microsoft SQL Server)</p>
+                            <p>Design and Prototyping (Figma)</p>
+                            <p>API Development</p>
+                            <p>Git, GitHub</p>
+                            <p>Testing and Quality Assurance</p>
+                            <p>Software Project Management(SPLC)</p>
+                        </div>
                     </div>
-                    <ul class="tasks">
-                        <li>Led the full software development project lifecycle, including design, planning, implementation, testing, and maintenance, in collaboration with team members.</li>
-                        <li>Created detailed project plans, monitored progress, and provided regular reports to management.</li>
-                        <li>Engaged in client discussions to gather requirements and provide project updates, ensuring alignment with business goals.</li>
-                        <li>Conducted User Acceptance Testing (UAT) for web and mobile platforms, ensuring high-quality releases.</li>
-                        <li>Oversaw core system maintenance, ensuring system reliability and addressing technical issues.</li>
-                        <li>Acted as a translator and interpreter for Japanese management, facilitating smooth communication and project execution.</li>
-                        <li>Assisted in team leadership and mentoring junior developers.</li>
-                    </ul>
+                    <div class="skills-card language-skills">
+                        <h2>Language Skills</h2>
+                        <div class="skills-list">  
+                            <p><img src="/image/mm-flag.png"  alt="Burmese Flag" class="flag"> Burmese (Native)</p>
+                            <p><img src="/image/japan-flag.png" alt="Japanese Flag" class="flag"> Japanese (Fluent)</p>
+                            <p><img src="/image/english-flag.png" alt="English Flag" class="flag"> English (Intermediate)</p>
+                        </div>
+                    </div>
+                    <div class="skills-card personal-skills">
+                        <h2>Personal Skills</h2>
+                        <div class="skills-list">
+                            <p>Problem-Solving</p>
+                            <p>Communication</p>
+                            <p>Teamwork</p>
+                            <p>Time & Task Management</p>
+                            <p>Attention to Details</p>
+                            <p>Leadership & Management</p>
+                            <p>Adaptability</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </section>
-
-        <section class="projects-section">
-            <div class="projects-container">
-                <div class="title">PROJECTS</div>
-                <div class="project">
-                    <h3><i class="fa-solid fa-shield"></i> Insurance Agent System</h3> 
-                    <h5><i class="fas fa-cogs"></i> Technologies: Java, Spring Boot, API Integration, Responsive Web Design</h5>
-                    <ul>
-                        <li>Developed a responsive web system for external insurance agents using Java Spring Boot.</li>
-                        <li>Key features include insurance proposal filling, submission of data to the server via API connections, proposal management, agent performance tracking, and customer management.</li>
-                        <li>Ensured seamless API integration for real-time data processing and improved user experience for agents on multiple devices.</li>
-                    </ul>
+            </section>
+    
+            <section class="work-experience-section">
+                <div class="title">WORK EXPERIENCE...</div>
+                <div class="work-experience-container">
+                    <div class="experience">
+                        <div class="company-info">
+                            <h3>Waiyan Myanmar Company Limited (Agency & Education Services)</h3>
+                            <span class="position">Project Coordinator</span>
+                            <span class="duration">Nov 2016 - March 2019 (2 years and 5 months)</span>
+                        </div>
+                        <ul class="tasks">
+                            <li>Translated and interpreted between the company and Japanese clients, ensuring seamless communication and collaboration.</li>
+                            <li>Developed project plans, timelines, and reports, ensuring all team members were informed and aligned with project objectives.</li>
+                            <li>Prepared and maintained project-related documents, ensuring accuracy and accessibility.</li>
+                            <li>Managed education service operations, coordinating between service providers and clients to meet educational goals.</li>
+                        </ul>
+                    </div>
+            
+                    <div class="experience">
+                        <div class="company-info">
+                            <h3> Capital Taiyo Life Insurance Limited (Japan-Myanmar Joint Venture)</h3>
+                            <span class="position">Web Developer, Assistant Manager</span>
+                            <span class="duration">April 2019 - Current</span>
+                        </div>
+                        <ul class="tasks">
+                            <li>Led the full software development project lifecycle, including design, planning, implementation, testing, and maintenance, in collaboration with team members.</li>
+                            <li>Created detailed project plans, monitored progress, and provided regular reports to management.</li>
+                            <li>Engaged in client discussions to gather requirements and provide project updates, ensuring alignment with business goals.</li>
+                            <li>Conducted User Acceptance Testing (UAT) for web and mobile platforms, ensuring high-quality releases.</li>
+                            <li>Oversaw core system maintenance, ensuring system reliability and addressing technical issues.</li>
+                            <li>Acted as a translator and interpreter for Japanese management, facilitating smooth communication and project execution.</li>
+                        </ul>
+                    </div>
                 </div>
-
-                <div class="project">
-                    <h3><i class="fa-solid fa-user-shield"></i> Claim Management System</h3> 
-                    <h5><i class="fas fa-cogs"></i> Technologies: Java, Spring Boot, Microsoft SQL Server</h5>
-                    <ul>
-                        <li>Developed a comprehensive claim management system for microfinances using Java Spring Boot and Microsoft SQL Server.</li>
-                        <li>The system facilitates the acceptance of claim documents and claim information, streamlining the workflow for insurance claim processing.</li>
-                        <li>Enabled the insurance company to review and verify claim data efficiently, with the process driven by an integrated workflow system.</li>
-                    </ul>
+            </section>
+    
+            <section class="projects-section">
+                <div class="projects-container">
+                    <div class="title">PROJECTS</div>
+                    <div class="project">
+                        <h3><i class="fa-solid fa-shield"></i> Insurance Agent System</h3> 
+                        <h5><i class="fas fa-cogs"></i> Technologies: Java, Spring Boot, API Integration, Responsive Web Design</h5>
+                        <ul>
+                            <li>Developed a responsive web system for external insurance agents using Java Spring Boot.</li>
+                            <li>Key features include insurance proposal filling, submission of data to the server via API connections, proposal management, agent performance tracking, and customer management.</li>
+                            <li>Ensured seamless API integration for real-time data processing and improved user experience for agents on multiple devices.</li>
+                        </ul>
+                    </div>
+    
+                    <div class="project">
+                        <h3><i class="fa-solid fa-user-shield"></i> Claim Management System</h3> 
+                        <h5><i class="fas fa-cogs"></i> Technologies: Java, Spring Boot, Microsoft SQL Server</h5>
+                        <ul>
+                            <li>Developed a comprehensive claim management system for microfinances using Java Spring Boot and Microsoft SQL Server.</li>
+                            <li>The system facilitates the acceptance of claim documents and claim information, streamlining the workflow for insurance claim processing.</li>
+                            <li>Enabled the insurance company to review and verify claim data efficiently, with the process driven by an integrated workflow system.</li>
+                        </ul>
+                    </div>
+    
+                    <div class="project">
+                        <h3><i class="fa-solid fa-house-chimney-medical"></i> Cashless Service Payment System</h3> 
+                        <h5><i class="fas fa-cogs"></i> Technologies: Java, Spring Boot, API Integration</h5>
+                        <ul>
+                            <li>Developed a cashless payment system for health insurance customers, enabling seamless payments at hospitals through a dedicated hospital portal.</li>
+                            <li>Serves as a portal for hospitals to verify customer insurance details, process transactions, and ensure compliance with healthcare payment.</li>
+                            <li>Improved customer convenience by allowing cashless transactions, streamlining the billing process, and reducing manual intervention.</li>
+                        </ul>
+                    </div>
+    
+                    <div class="project">
+                        <h3><i class="fa-solid fa-plane-departure"></i>  Travel Insurance System</h3> 
+                        <h5><i class="fas fa-cogs"></i> Technologies: Java, Spring Boot, Microsoft SQL Server</h5>
+                        <ul>
+                            <li>Developed a travel insurance management system using Java Spring Boot and Microsoft SQL Server to streamline insurance proposals and travel-related processes.</li>
+                            <li>Key features include travel proposal management, invoice generation, payment processing, and incentive tracking for travel companies.</li>
+                            <li>Managed travel bus company information, including adding, updating, and maintaining records for efficient coordination.</li>
+                        </ul>
+                    </div>
+    
+                    <div class="project">
+                        <h3><i class="fa-solid fa-message"></i>  Message Hub System</h3> 
+                        <h5><i class="fas fa-cogs"></i> Technologies: Java, Spring Boot, API Integration</h5>
+                        <ul>
+                            <li>Developed a batch processing message hub system using Java Spring Boot to send notifications or SMS to insurance customers based on predefined criteria.</li>
+                            <li>Implemented customer-specific messaging logic, allowing notifications and SMS to be sent according to message categories such as reminders, updates, or promotions.</li>
+                            <li>Key features include message history management for tracking sent messages and the creation of reusable message templates for efficient communication.</li>
+                        </ul>
+                    </div>   
                 </div>
-
-                <div class="project">
-                    <h3><i class="fa-solid fa-house-chimney-medical"></i> Cashless Service Payment System</h3> 
-                    <h5><i class="fas fa-cogs"></i> Technologies: Java, Spring Boot, API Integration</h5>
-                    <ul>
-                        <li>Developed a cashless payment system for health insurance customers, enabling seamless payments at hospitals through a dedicated hospital portal.</li>
-                        <li>Serves as a portal for hospitals to verify customer insurance details, process transactions, and ensure compliance with healthcare payment.</li>
-                        <li>Improved customer convenience by allowing cashless transactions, streamlining the billing process, and reducing manual intervention.</li>
-                    </ul>
+            </section>
+    
+            <section class="conclusion">
+                <div class="thank-you-container">
+                    <h1>Thank You!</h1>
+                    <p>Your interest in my portfolio means a lot to me. I appreciate you taking the time to explore my projects and skills.</p>
+                    <p>If you have any questions or would like to connect further, feel free to reach out!</p>
+                    <div class="button-container">
+                        <a href="mailto:poeeisan.techmm@gmail.com" class="contact-button"><i class="fas fa-envelope"></i> Contact Me</a>
+                    </div>
                 </div>
+            </section>
+        </div>
 
-                <div class="project">
-                    <h3><i class="fa-solid fa-plane-departure"></i>  Travel Insurance System</h3> 
-                    <h5><i class="fas fa-cogs"></i> Technologies: Java, Spring Boot, Microsoft SQL Server</h5>
-                    <ul>
-                        <li>Developed a travel insurance management system using Java Spring Boot and Microsoft SQL Server to streamline insurance proposals and travel-related processes.</li>
-                        <li>Key features include travel proposal management, invoice generation, payment processing, and incentive tracking for travel companies.</li>
-                        <li>Managed travel bus company information, including adding, updating, and maintaining records for efficient coordination.</li>
-                    </ul>
+        <div id="jap-container" style="display:none;">
+            <section class="intro-section">
+                <div class="biography-container">
+                    <div class="profile">
+                        <img class="profile-image" src="./image//profile-image.jpeg" alt="Profile Picture Image">
+                        <h2>ポーイサン</h2>
+                        <h3>ウェブ開発およびプロジェクト管理</h3>
+                        <h3>1996年6月9日 誕生</h3> 
+                    </div>
+
+                    <div class="about-me">
+                        <div class="about-me-list">
+                            <p class="about-me-item"><i class="fas fa-globe-americas"></i>ミンガラドン郡区, ヤンゴン市, ミャンマー</p>
+                            <p class="about-me-item"><i class="fas fa-phone"></i>(+95) XXXX-XXXX-XX</p>
+                            <p class="about-me-item">
+                                <a href="mailto: poeeisan.techmm@gmail.com" target="_blank">
+                                    <i class="fas fa-envelope"></i>poeeisan.techmm@gmail.com
+                                </a>
+                            </p>
+                            <p class="about-me-item">
+                                <a href="https://www.linkedin.com/in/poeei-san-san-115002252" target="_blank">
+                                    <i class="fab fa-linkedin"></i>linkedin.com/poeei-san-san
+                                </a>
+                            </p>
+                            <p class="about-me-item">
+                                <a href="https://github.com/Poeei-San" target="_blank">
+                                    <i class="fab fa-github"></i>github.com/Poeei-San
+                                </a>
+                            </p>
+                            <p class="about-me-objective">システム設計やプロトタイピングから実装、開発、テスト、保守まで、プロジェクトの全工程を管理する経験を持つ、Javaを専門とする開発者。</p>
+                        </div>
+                    </div>
                 </div>
-
-                <div class="project">
-                    <h3><i class="fa-solid fa-message"></i>  Message Hub System</h3> 
-                    <h5><i class="fas fa-cogs"></i> Technologies: Java, Spring Boot, API Integration</h5>
-                    <ul>
-                        <li>Developed a batch processing message hub system using Java Spring Boot to send notifications or SMS to insurance customers based on predefined criteria.</li>
-                        <li>Implemented customer-specific messaging logic, allowing notifications and SMS to be sent according to message categories such as reminders, updates, or promotions.</li>
-                        <li>Key features include message history management for tracking sent messages and the creation of reusable message templates for efficient communication.</li>
-                    </ul>
-                </div>   
-            </div>
-        </section>
-
-        <section class="conclusion">
-            <div class="thank-you-container">
-                <h1>Thank You!</h1>
-                <p>Your interest in my portfolio means a lot to me. I appreciate you taking the time to explore my projects and skills.</p>
-                <p>If you have any questions or would like to connect further, feel free to reach out!</p>
-                <div class="button-container">
-                    <a href="mailto:poeeisan.techmm@gmail.com" class="contact-button"><i class="fas fa-envelope"></i> Contact Me</a>
+            </section>
+    
+            <section class="education-section">
+                <div class="headline-title">
+                    <div class="headline-title-wavy">
+                        <span style="--i:1">E</span>
+                        <span style="--i:2">D</span>
+                        <span style="--i:3">U</span>
+                        <span style="--i:4">C</span>
+                        <span style="--i:5">A</span>
+                        <span style="--i:6">T</span>
+                        <span style="--i:7">I</span>
+                        <span style="--i:8">O</span>
+                        <span style="--i:9">N</span>
+                    </div>
                 </div>
-            </div>
-        </section>
+    
+                <div class="education-container">
+                    <div class="academic-info-container">
+                        <div class="academic-title"><i class="fas fa-graduation-cap"></i>ヤンゴン外国語大学</div>
+                        <p> 学士「日本語専攻」</p>
+                        <p>2012年から2016年の学年度に日本語専攻を修了 </p>
+                    </div>
+                    
+                    <div class="academic-info-container">
+                        <div class="academic-title"><i class="fa-solid fa-award"></i>日本語能力試験 (JLPT)</div>
+                        <p>N1 合格済み</p>
+                        <p>2018年に日本語能力試験N1を取得</p>
+                    </div>
+                </div>
+    
+                <div class="education-container">
+                    <div class="academic-info-container">
+                        <div class="academic-title"><i class="fa-solid fa-award"></i>ITプロフェッショナル試験協議会　「ITPEC」</div>
+                        <p>ITパスポート試験(IP) 合格済み</p>
+                        <p>2022年4月にIP証明書を取得</p>
+                    </div>
+                    <div class="academic-info-container">
+                        <div class="academic-title"><i class="fa-solid fa-award"></i>ITプロフェッショナル試験協議会　「ITPEC」</div>
+                        <p>基本情報技術者試験(FE)　合格済み</p>
+                        <p>2022年10月にFE証明書を取得</p>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="skills-section">
+                <div class="headline-title">
+                    <div class="headline-title-wavy">
+                        <span style="--i:1">S</span>
+                        <span style="--i:2">K</span>
+                        <span style="--i:3">I</span>
+                        <span style="--i:4">L</span>
+                        <span style="--i:5">L</span>
+                        <span style="--i:6">S</span>
+                    </div>
+                </div>
+    
+                <div class="skills-container">
+                    <div class="skills-card tech-skills">
+                        <h2>技術的なスキル</h2>
+                        <div class="skills-list">
+                            <p>Java</p>
+                            <p>Springフレームワーク（Spring Boot、Spring MVC、Spring Security）</p>
+                            <p>フロントエンド開発（HTML、CSS、Bootstrap、JavaScript、jQuery、Ajax）</p>
+                            <p>データベース管理（MySQL、Microsoft SQL Server）</p>
+                            <p>デザインおよびプロトタイピング（Figma）</p>
+                            <p>API開発</p>
+                            <p>Git, GitHub</p>
+                            <p>テストおよび品質保証</p>
+                            <p>ソフトウェアプロジェクト管理（SPLC）</p>
+                        </div>
+                    </div>
+                    <div class="skills-card language-skills">
+                        <h2>語学スキル</h2>
+                        <div class="skills-list">  
+                            <p><img src="/image/mm-flag.png"  alt="Burmese Flag" class="flag"> ビルマ語「母国語」</p>
+                            <p><img src="/image/japan-flag.png" alt="Japanese Flag" class="flag"> 日本語 「流暢」</p>
+                            <p><img src="/image/english-flag.png" alt="English Flag" class="flag"> 英語「中級」</p>
+                        </div>
+                    </div>
+                    <div class="skills-card personal-skills">
+                        <h2>個人スキル</h2>
+                        <div class="skills-list">
+                            <p>問題解決能力</p>
+                            <p>コミュニケーション能力</p>
+                            <p>チームワーク</p>
+                            <p>タイムマネジメントおよびタスク管理</p>
+                            <p>細部への注意</p>
+                            <p>リーダーシップおよびマネジメント</p>
+                            <p>適応力</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="work-experience-section">
+                <div class="title">WORK EXPERIENCE...</div>
+                <div class="work-experience-container">
+                    <div class="experience">
+                        <div class="company-info">
+                            <h3>株式会社Waiyan Myanmar「代理店業務および教育サービ」</h3>
+                            <span class="position">通訳者・プロジェクト企画者</span>
+                            <span class="duration">2016年11月 - 2019年3月 (2年5ヶ月間)</span>
+                        </div>
+                        <ul class="tasks">
+                            <li>会社と日本のクライアント間での翻訳および通訳を行い、円滑なコミュニケーションと協力を確保しました。</li>
+                            <li>プロジェクト計画、タイムライン、報告書を作成し、すべてのチームメンバーがプロジェクトの目標を理解し、整合性を持つようにしました。</li>
+                            <li>プロジェクト関連の文書を準備し、正確性とアクセス可能性を確保しました。</li>
+                            <li>教育サービスの運営を管理し、サービス提供者とクライアントの間で調整を行い、教育目標の達成を支援しました。</li>
+                        </ul>
+                    </div>
+            
+                    <div class="experience">
+                        <div class="company-info">
+                            <h3> キャピタル太陽生命保険会社 (日ミャンマー合弁事業)</h3>
+                            <span class="position">アシスタントマネージャー・ウェブ開発者</span>
+                            <span class="duration">2019年4月 - 現在まで</span>
+                        </div>
+                        <ul class="tasks">
+                            <li>チームメンバーと協力して、設計、計画、実装、テスト、保守を含むソフトウェア開発プロジェクトの全ライフサイクルを主導しました。</li>
+                            <li>詳細なプロジェクト計画を作成し、進捗を監視し、定期的に管理者に報告しました。</li>
+                            <li>クライアントとの議論に参加し、要件を収集し、プロジェクトの進捗を提供して、ビジネス目標との整合性を確保しました。</li>
+                            <li>ウェブおよびモバイルプラットフォームのユーザー受け入れテスト（UAT）を実施し、高品質なリリースを確保しました。</li>
+                            <li>コアシステムの保守を監督し、システムの信頼性を確保し、技術的な問題に対処しました。</li>
+                            <li>日本の管理者のために翻訳および通訳を行い、円滑なコミュニケーションとプロジェクトの実行を促進しました。</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="projects-section">
+                <div class="projects-container">
+                    <div class="title">PROJECTS</div>
+                    <div class="project">
+                        <h3><i class="fa-solid fa-shield"></i> 保険代理店システム</h3> 
+                        <h5><i class="fas fa-cogs"></i> 技術: Java、Spring Boot、API統合、レスポンシブウェブデザイン</h5>
+                        <ul>
+                            <li>Java Spring Bootを使用して、外部保険代理店向けのレスポンシブウェブシステムを開発しました。</li>
+                            <li>主な機能には、保険提案の入力、API接続を通じたデータのサーバーへの送信、提案管理、代理店のパフォーマンス追跡、および顧客管理が含まれます。</li>
+                            <li>複数のデバイスで代理店のユーザーエクスペリエンスを向上させるために、リアルタイムデータ処理のためのシームレスなAPI統合を確保しました。</li>
+                        </ul>
+                    </div>
+    
+                    <div class="project">
+                        <h3><i class="fa-solid fa-user-shield"></i> 給付管理システム</h3> 
+                        <h5><i class="fas fa-cogs"></i> 技術: Java、Spring Boot、 Microsoft SQL Server</h5>
+                        <ul>
+                            <li>Java Spring BootおよびMicrosoft SQL Serverを使用して、マイクロファイナンス向けの包括的な給付管理システムを開発しました。</li>
+                            <li>給付情報申請の受け入れを容易にし、保険金請求処理のワークフローを効率化しました。</li>
+                            <li>保険会社が給付データを効率的に確認および検証できるようにし、プロセスは統合されたワークフローシステムによって推進されまました。</li>
+                        </ul>
+                    </div>
+    
+                    <div class="project">
+                        <h3><i class="fa-solid fa-house-chimney-medical"></i> キャッシュレス支払いシステム</h3> 
+                        <h5><i class="fas fa-cogs"></i> 技術: Java、Spring Boot、API統合</h5>
+                        <ul>
+                            <li>健康保険加入者向けにキャッシュレス決済システムを開発し、専用の病院ポータルを通じて病院でのシームレスな決済を可能にしました。</li>
+                            <li>病院が顧客の保険情報を確認し、取引を処理し、医療支払いのコンプライアンスを確保するためのポータルとして機能しました。</li>
+                            <li>キャッシュレス取引を可能にすることで顧客の利便性を向上させ、請求プロセスを効率化し、手作業の介入を減らしました。</li>
+                        </ul>
+                    </div>
+    
+                    <div class="project">
+                        <h3><i class="fa-solid fa-plane-departure"></i>  旅行保険システム</h3> 
+                        <h5><i class="fas fa-cogs"></i> 技術: Java、Spring Boot、Microsoft SQL Server</h5>
+                        <ul>
+                            <li>Java Spring BootおよびMicrosoft SQL Serverを使用して、保険提案や旅行関連プロセスを効率化する旅行保険管理システムを開発しました。</li>
+                            <li>主な機能には、旅行提案管理、請求書生成、支払い処理、および旅行会社向けのインセンティブ追跡が含まれます。</li>
+                            <li>旅行バス会社の情報を管理し、効率的な調整のためにレコードの追加、更新、および保守を行いました。</li>
+                        </ul>
+                    </div>
+    
+                    <div class="project">
+                        <h3><i class="fa-solid fa-message"></i>  メッセージハブシステム</h3> 
+                        <h5><i class="fas fa-cogs"></i> 技術: Java、Spring Boot、API統合</h5>
+                        <ul>
+                            <li>Java Spring Bootを使用して、保険顧客に対して事前定義された基準に基づいて通知やSMSを送信するバッチ処理のメッセージハブシステムを開発しました。</li>
+                            <li>顧客ごとのメッセージロジックを実装し、リマインダー、更新情報、プロモーションなどのメッセージカテゴリに応じて通知やSMSを送信できるようにしました。</li>
+                            <li>主な機能には、送信済みメッセージの追跡を行うメッセージ履歴管理や、効率的なコミュニケーションのための再利用可能なメッセージテンプレートの作成が含まれます。</li>
+                        </ul>
+                    </div>   
+                </div>
+            </section>
+    
+            <section class="conclusion">
+                <div class="thank-you-container">
+                    <h1>どうもありがとうございます。</h1>
+                    <p>私のポートフォリオにご関心をお寄せ頂き、誠にありがとうございます。</p>
+                    <p>ご質問がある場合や、さらにお話ししたいことがあれば、どうぞ気軽にご連絡ください。</p>
+                    <div class="button-container">
+                        <a href="mailto:poeeisan.techmm@gmail.com" class="contact-button"><i class="fas fa-envelope"></i>問い合わせ</a>
+                    </div>
+                </div>
+            </section>
+        </div>
     </body>
 </html>
